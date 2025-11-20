@@ -1,0 +1,5 @@
+{
+  "name": "ServicePlanAuto",
+  "description": "Система планирования и регистрации ремонта автомобилей для автосервиса.",
+  "requestFramePermissions": []
+}
