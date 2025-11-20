@@ -219,7 +219,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
             </button>
             <button 
               onClick={() => onSave(formData)}
-              className="px-6 py-2 rounded bg-primary text-white font-medium hover:bg-blue-800 shadow-md"
+              className="px-6 py-2 rounded bg-blue-600 text-white font-medium hover:bg-blue-700 shadow-md"
             >
               Сохранить
             </button>

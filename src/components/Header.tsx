@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUser, currentDate, onDate
     <header className="bg-white border-b px-4 py-3 flex items-center justify-between shadow-sm z-30 relative">
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">
-           <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-bold text-sm">
+           <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">
              {currentUser.avatar}
            </div>
            <div>
@@ -61,7 +61,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUser, currentDate, onDate
           <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
         </button>
         
-        <button onClick={handleToday} className="text-sm text-primary font-medium hover:underline ml-2">
+        <button onClick={handleToday} className="text-sm text-blue-600 font-medium hover:underline ml-2">
           Сегодня
         </button>
       </div>

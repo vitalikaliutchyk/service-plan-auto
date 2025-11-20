@@ -11,7 +11,7 @@ export const STATIONS: Station[] = [
 ];
 
 export const START_HOUR = 8;
-export const END_HOUR = 19.5; // Ends at 19:30 to accommodate the 19:00-19:30 slot
+export const END_HOUR = 19; // Ends at 19:00
 export const SLOT_DURATION = 30; // minutes
 
 // Helper to generate time slots
